@@ -6,6 +6,26 @@ import { lusitana } from './ui/font';
 import Image from 'next/image';
 
 export default function Page() {
+  // return (
+  //   <main className="bg-red-300">
+  //     <div style={{ padding: 10 }}>
+  //       <div
+  //         style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10 }}
+  //       >
+  //         <div style={{ padding: 100, background: 'orange' }}>hi</div>
+  //         <div style={{ padding: 100, background: 'gray' }}>hi</div>
+  //         <div style={{ padding: 100, background: 'orange' }}>hi</div>
+  //         <div style={{ padding: 100, background: 'gray' }}>hi</div>
+  //         <div style={{ padding: 100, background: 'orange' }}>hi</div>
+  //         <div style={{ padding: 100, background: 'gray' }}>hi</div>
+  //         <div style={{ padding: 100, background: 'orange' }}>hi</div>
+  //         <div style={{ padding: 100, background: 'gray' }}>hi</div>
+  //         <div style={{ padding: 100, background: 'orange' }}>hi</div>
+  //         <div style={{ padding: 100, background: 'gray' }}>hi</div>
+  //       </div>
+  //     </div>
+  //   </main>
+  // );
   return (
     <main className="flex min-h-screen flex-col p-6">
       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
